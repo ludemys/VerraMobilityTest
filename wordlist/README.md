@@ -6,7 +6,12 @@ This is a project that, given a file with a list of words, outputs all the 6-let
 
 ## Execution
 
-To execute, run the command 'app:find-words' with the symfony console on the project root.
+To execute, first run composer install.
+```bash
+composer install
+```
+
+Then run the command 'app:find-words' with the symfony console on the project root.
 ```bash
 bin/console app:find-words
 ```
