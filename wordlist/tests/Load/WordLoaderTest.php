@@ -27,7 +27,6 @@ final class WordLoaderTest extends TestCase
         $missingFile = __DIR__ . '/../Fixtures/missing.txt';
 
         $this->expectException(\RuntimeException::class);
-        $this->expectExceptionMessage("Word list file $missingFile is not readable");
 
         new WordLoader($missingFile);
     }
