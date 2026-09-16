@@ -4,4 +4,5 @@
 /.phpunit.cache/
 ###< phpunit/phpunit ###
 
-/var
+/var/
+/vendor/
